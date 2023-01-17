@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  border: 2px solid red;
+}
+.story-container {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+
+  background-color: whitesmoke;
+  border: 10px solid black;
+  border-radius: 20px;
+  width: 470px;
+  height: 770px;
+  margin: 160px 105px 0px 0px;
+}
+.story-header {
+  width: 470px;
+  height: 50px;
+  border-bottom: 0.5px solid gray;
+}
+.img-container {
+  border-bottom: 0.5px solid gray;
+  margin: 28px 0px 0px 0px;
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}
+.story-comments{
+    // border: 2px solid red;
+    width: 100%;
+    height: 180px;
+    border-bottom: 0.5px solid gray;
+}
