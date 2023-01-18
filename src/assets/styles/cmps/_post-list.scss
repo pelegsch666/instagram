@@ -38,3 +38,17 @@
     height: 180px;
     border-bottom: 0.5px solid gray;
 }
+.input-container{
+  border: 2px solid red;
+  display: flex;
+  flex-direction: row;
+  height: 60px;
+  width: 466px;
+}
+.btn-submit{
+  width: 100%;
+  height:100%;
+  color: teal;
+  background-color: white;
+  border: 2px solid white;
+}
